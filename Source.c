@@ -49,8 +49,6 @@ int main(int argc, char* argv[]) {
     if (bSuccess) {
         printf("[+] Created syscall\n");
     }
-    LPVOID rBuffer = NULL;
-    SIZE_T uSize = 8000;
 
     LPVOID allocation_start = NULL;
     char shellcode[8000];
